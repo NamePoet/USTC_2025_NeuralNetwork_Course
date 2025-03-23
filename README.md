@@ -13,7 +13,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ```
 
 ## Project 1: Regression Analysis                  
-Boston house price forecast  
+### Boston House Price Forecast  
 
 Dataset: Boston house price dataset, which has a dimension of (506,14), including 506 data,
 and each data contains 14 feature dimensions. The characteristic dimension includes
