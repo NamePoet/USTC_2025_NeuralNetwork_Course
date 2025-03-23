@@ -78,23 +78,14 @@ def show_plt(origin, predict):
 class Regressor(nn.Module):
     def __init__(self, input_size):
         super(Regressor, self).__init__()
-        # self.fc = nn.Linear(input_size, 1)
-        self.model = nn.Sequential(
-            nn.Linear(input_size, 64),  # 第一层隐藏层，64个神经元
-            nn.ReLU(),  # 激活函数
-            nn.Linear(64, 32),  # 第二层隐藏层，32个神经元
-            nn.ReLU(),  # 激活函数
-            nn.Linear(32, 1)  # 输出层
-        )
-
+        self.fc = nn.Linear(input_size, 1)
 
     def forward(self, x):
-        return self.model(x)
-        #return self.fc(x)
+        return self.fc(x)
 
-    def fit_model(self, train_data, num_epochs, batch_size):
+    def fit_model(self, train_data, num_epochs, batch_size=10):
         criterion = nn.MSELoss()
-        optimizer = optim.Adam(self.parameters(), lr=0.0005)    # lr可降低至0.0005
+        optimizer = optim.Adam(self.parameters(), lr=0.001)
 
         for epoch in range(num_epochs):
             mini_batches = [train_data[k:k + batch_size] for k in range(0, len(train_data), batch_size)]
@@ -114,15 +105,18 @@ class Regressor(nn.Module):
 train_data, test_data, max_values, min_values, selected_features = load_data()
 # model = Regressor(13)
 model = Regressor(len(selected_features))  # 只使用挑选出的特征
-model.fit_model(train_data, num_epochs=50, batch_size=16)     # num_epochs可取20
-torch.save(model.state_dict(), 'boston_model_nn.pth')
-print("Model saved to boston_model_nn.pth")
+num_epochs = 20
+batch_size = 10
+model.fit_model(train_data, num_epochs, batch_size)
+
+torch.save(model.state_dict(), 'boston_model_6features.pth')
+print("Model saved to boston_model.pth")
 
 
 def predict_pytorch():
     # loaded_model = Regressor(13)
     loaded_model = Regressor(len(selected_features))
-    loaded_model.load_state_dict(torch.load('boston_model_nn.pth'))
+    loaded_model.load_state_dict(torch.load('boston_model_6features.pth'))
     loaded_model.eval()
 
     x_test = torch.tensor(test_data[:, :-1], dtype=torch.float32)
