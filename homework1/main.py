@@ -95,7 +95,7 @@ class Regressor(nn.Module):
 
     def fit_model(self, train_data, num_epochs, batch_size):
         criterion = nn.MSELoss()
-        optimizer = optim.Adam(self.parameters(), lr=0.0005)  # 使用Adam优化器，基于计算出的梯度更新神经网络的权重和偏置。学习率设为0.0005
+        optimizer = optim.Adam(self.parameters(), lr=0.0005)  # 使用 Adam 优化器，基于计算出的梯度更新神经网络的权重和偏置。学习率设为0.0005
 
         for epoch in range(num_epochs):
             mini_batches = [train_data[k:k + batch_size] for k in range(0, len(train_data), batch_size)]
