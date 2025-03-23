@@ -18,6 +18,7 @@ def select_features_by_correlation(data, target_column='MEDV', threshold=0.4):
     selected_features = target_corr[target_corr > threshold].index.tolist()
     if target_column in selected_features:
         selected_features.remove(target_column)  # 移除目标列本身
+
     print("Selected Features:", selected_features)
 
     # 绘制相关性热图
