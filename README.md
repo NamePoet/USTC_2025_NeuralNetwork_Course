@@ -5,7 +5,7 @@ Yilin YANG's course assignments of Neural Network.                
 These projects all use PyTorch framework, we need to install PyTorch(appropriate version according to our CUDA version) in our Pycharm.  
 
 
-[PyTorch Download](https://pytorch.org/get-started/locally/"PyTorch官网下载")            
+[PyTorch Download](https://pytorch.org/"PyTorch官网下载")            
 
 
 ```
