@@ -18,4 +18,4 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 Dataset: Boston house price dataset, which has a dimension of (506,14), including 506 data,
 and each data contains 14 feature dimensions. The characteristic dimension includes 
 13 dimensions and the corresponding house price.  
-![result1](https://pic1.imgdb.cn/item/67e0091488c538a9b5c51edb.png)
+![](https://pic1.imgdb.cn/item/67e0091488c538a9b5c51edb.png)
