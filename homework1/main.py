@@ -65,9 +65,9 @@ def load_data():
 
 # 可视化原始数据与预测数据的对比
 def show_plt(origin, predict):
-    plt.plot(origin, color='blue', label='Original Data', alpha=0.6)
-    plt.plot(predict, color='red', label='Predicted Data', linewidth=2)
-    plt.title('Comparison of Original Data and Predicted Data')
+    plt.plot(origin, color='blue', label='Original House Price', alpha=0.6)
+    plt.plot(predict, color='red', label='Predicted House Price', linewidth=2)
+    plt.title('Comparison of Original House Price and Predicted House Price')
     plt.xlabel('Index')
     plt.ylabel('Value')
     plt.legend()
