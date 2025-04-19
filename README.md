@@ -29,8 +29,11 @@ and each data contains 14 feature dimensions. The characteristic dimension inclu
 
 ## Project 2：CNN CIFAR-10 Image Classification
 ![](https://pic1.imgdb.cn/item/68032b1358cb8da5c8b46dde.png)
+
 ![](https://pic1.imgdb.cn/item/68032b5158cb8da5c8b46f33.png)
+
 ![](https://pic1.imgdb.cn/item/68032b6d58cb8da5c8b46fc3.png)
+
 ![](https://pic1.imgdb.cn/item/68032b8058cb8da5c8b4701b.png)
 
 
