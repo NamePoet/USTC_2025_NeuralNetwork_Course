@@ -1,6 +1,12 @@
 # USTC-2025-NeuralNetwork-Course                                              
 Yilin YANG's course assignments of Neural Network.                                           
 
+
+
+
+
+
+
 ## Getting Started                
 These projects all use PyTorch framework, we need to install PyTorch (appropriate version according to our CUDA version) in our Pycharm.  
 
@@ -19,3 +25,16 @@ Dataset: Boston house price dataset, which has a dimension of (506,14), includin
 and each data contains 14 feature dimensions. The characteristic dimension includes 
 13 dimensions and the corresponding house price.  
 ![](https://pic1.imgdb.cn/item/67e0091488c538a9b5c51edb.png)
+
+
+## Project 2：CNN CIFAR-10 Image Classification
+![](https://pic1.imgdb.cn/item/68032b1358cb8da5c8b46dde.png)
+![](https://pic1.imgdb.cn/item/68032b5158cb8da5c8b46f33.png)
+![](https://pic1.imgdb.cn/item/68032b6d58cb8da5c8b46fc3.png)
+![](https://pic1.imgdb.cn/item/68032b8058cb8da5c8b4701b.png)
+
+
+
+
+
+
