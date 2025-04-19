@@ -42,7 +42,7 @@ def load_data():
     selected_features = select_features_by_correlation(data)
     selected_indices = [df.columns.get_loc(f) for f in selected_features]  # 获取索引
 
-    # 仅选择相关性较高的特征
+    # 仅选择相关度较高的特征
     data = data[:, selected_indices + [-1]]  # 选取主要特征 + 房价（MEDV）
 
     # 使用前450条作为训练集
