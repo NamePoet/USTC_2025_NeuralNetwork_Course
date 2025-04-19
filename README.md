@@ -27,8 +27,13 @@ and each data contains 14 feature dimensions. The characteristic dimension inclu
 ![](https://pic1.imgdb.cn/item/67e0091488c538a9b5c51edb.png)
 
 
-## Project 2：CNN CIFAR-10 Image Classification
-![](https://pic1.imgdb.cn/item/68032b1358cb8da5c8b46dde.png)
+## Project 2：CNN CIFAR-10 Image Classification    
+
+Dataset：The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+
+The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
+
+![](https://pic1.imgdb.cn/item/68032cb358cb8da5c8b47624.png)
 
 ![](https://pic1.imgdb.cn/item/68032b5158cb8da5c8b46f33.png)
 
