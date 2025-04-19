@@ -41,8 +41,6 @@ The dataset is divided into five training batches and one test batch, each with 
 
 [![image.png](https://pic1.imgdb.cn/item/68032e6058cb8da5c8b47d8a.png)](https://pic1.imgdb.cn/item/68032e6058cb8da5c8b47d8a.png)
 
-![](https://pic1.imgdb.cn/item/68032b8058cb8da5c8b4701b.png)
-
 
 
 
