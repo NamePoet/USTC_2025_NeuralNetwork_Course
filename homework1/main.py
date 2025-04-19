@@ -134,6 +134,10 @@ def predict_pytorch():
     y_pred = y_pred * (max_values[-1] - min_values[-1]) + min_values[-1]
     y_true = y_true * (max_values[-1] - min_values[-1]) + min_values[-1]
 
+    # 计算均方误差
+    mse = mean_squared_error(y_true, y_pred)
+    print(f'Mean Squared Error (MSE): {mse:.4f}')
+    
     show_plt(y_true, y_pred)
 
 if __name__ == '__main__':
