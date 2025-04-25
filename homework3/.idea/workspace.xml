@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12b6476a-01c9-4c64-afc3-7dd7452ec5eb" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/facenet/data/images/Anthony_Hopkins_0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/images/Anthony_Hopkins_0002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/learning_rate_retrain_tripletloss.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/learning_rate_schedule_classifier_casia.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/learning_rate_schedule_classifier_msceleb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/learning_rate_schedule_classifier_vggface2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/pairs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/align/detect_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/align/detect_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/validate_on_lfw.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/validate_on_lfw.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/facenet" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NamePoet"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:davidsandberg/facenet.git",
+    "accountId": "5b1fa23b-df8d-461d-a67b-4186eefed0a3"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2wDBBEY4aD1XMbN5gUAUad3vua7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master 上的 #966",
+    "last_opened_file_path": "D:/Projet/PycharmProjects/FGSM_against_Facenet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projet\PycharmProjects\FGSM_against_Facenet" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="12b6476a-01c9-4c64-afc3-7dd7452ec5eb" name="更改" comment="" />
+      <created>1745566126718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745566126718</updated>
+      <workItem from="1745566127945" duration="12084000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
