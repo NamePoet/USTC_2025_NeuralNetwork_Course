@@ -41,7 +41,22 @@ The dataset is divided into five training batches and one test batch, each with 
 
 [![image.png](https://pic1.imgdb.cn/item/68032e6058cb8da5c8b47d8a.png)](https://pic1.imgdb.cn/item/68032e6058cb8da5c8b47d8a.png)
 
-## Project 3:  FGSM Attack on the Facenet Model
+
+## Project 3: Sentiments Classification on IMDB datasets with TRANSFORMERS     
+
+Dataset: IMDB movie review dataset, with positive and negative labels
+
+Download address: https://ai.stanford.edu/~amaas/data/sentiment/        
+
+![7a129590625f4a0a48fca50a2e30ef63.png](https://i.miji.bid/2025/05/11/7a129590625f4a0a48fca50a2e30ef63.png)
+![f1925a273fbda5a01a4acaf4333320e4.png](https://i.miji.bid/2025/05/11/f1925a273fbda5a01a4acaf4333320e4.png)
+
+
+
+
+
+
+## Project 4:  FGSM Attack on the Facenet Model
 
 Dataset: Welcome to Labeled Faces in the Wild, a database of face photographs designed for studying the problem of unconstrained face recognition. The data set contains more than 13,000 images of faces collected from the web. Each face has been labeled with the name of the person pictured. 1680 of the people pictured have two or more distinct photos in the data set. The only constraint on these faces is that they were detected by the Viola-Jones face detector.
 
